@@ -1,0 +1,673 @@
+@media (max-width: 1460px) {
+  .container {
+    max-width: 954px;
+  }
+
+  /* header */
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .header__logo {
+    width: 150px;
+    padding: 26px 0;
+  }
+
+  .header__nav {
+    margin-right: 106px;
+  }
+
+  .nav__list {
+    column-gap: 60px;
+  }
+
+  .header__search {
+    padding-top: 3px;
+  }
+
+  /* hero */
+  .hero {
+    margin-bottom: 36px;
+  }
+
+  .hero__container {
+    max-width: 924px;
+    padding: 160px 77px;
+    background-image: url("../img/hero_background@1024.jpg");
+  }
+
+  .hero__title {
+    font-size: 60px;
+    margin-bottom: 16px;
+  }
+
+  .hero__text {
+    margin-bottom: 61px;
+    font-size: 20px;
+  }
+
+  .hero__btn {
+    padding: 24px 35px;
+    font-size: 24px;
+  }
+
+  /* about */
+  .about {
+    margin-bottom: 30px;
+  }
+
+  .about__text {
+    max-width: 924px;
+    margin-bottom: 61px;
+  }
+
+  .about__cards-wrap {
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .about__column {
+    width: 924px;
+    height: 641px;
+    margin-bottom: 30px;
+  }
+
+  .about__btn {
+    padding: 18px 34px;
+  }
+
+  .about__card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .card {
+    max-width: 924px;
+    min-height: 295px;
+    padding: 66px 66px 42px 76px;
+  }
+
+  .card::before {
+    width: 190px;
+    height: 160px;
+  }
+
+  .card__text {
+    max-width: 450px;
+  }
+
+  .card__title {
+    padding: 2px;
+  }
+
+  /* how */
+  .how {
+    margin-bottom: 81px;
+  }
+
+  .how__subtitle {
+    margin-bottom: 8px;
+  }
+
+  .how__text {
+    max-width: 437px;
+    margin-bottom: 25px;
+  }
+
+  .how__btn {
+    margin-right: 28px;
+  }
+
+  .how__btn-second {
+    padding: 19px 37px;
+  }
+
+  .how__background {
+    max-width: 437px;
+    min-height: 689px;
+    margin-top: 11px;
+    background: url(../img/how_background@1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* faq */
+  .faq {
+    margin-bottom: 51px;
+  }
+
+  .faq__list {
+    flex-direction: column;
+  }
+
+  .faq__item {
+    max-width: 924px;
+    margin-bottom: 32px;
+    margin-right: 0;
+    padding: 63px 59px;
+  }
+
+  /* footer */
+  .footer__feedback {
+    max-width: 541px;
+    width: 100%;
+  }
+
+  .feedback__input-textarea {
+    margin-bottom: 33px;
+  }
+
+  .feedback__submit-btn {
+    padding: 19px 37px;
+  }
+
+  .footer__about {
+    display: none;
+  }
+}
+
+@media (max-width: 962px) {
+  .container {
+    max-width: 698px;
+  }
+
+  /* header */
+  .header__logo {
+    width: 110px;
+    padding: 17px 0;
+  }
+
+  .header__nav {
+    margin-right: 44px;
+  }
+
+  .nav__list {
+    column-gap: 41px;
+  }
+
+  .nav__link {
+    color: var(--extra-dark-gray);
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .header__search {
+    padding-top: 2px;
+  }
+
+  /* hero */
+  .hero__container {
+    max-width: 668px;
+    padding: 160px 40px;
+    background-image: url("../img/hero_background@768.jpg");
+    border-radius: 22px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    margin-bottom: 16px;
+  }
+
+  .hero__text {
+    margin-bottom: 61px;
+    font-size: 18px;
+  }
+
+  .hero__btn {
+    padding: 24px 39px;
+    font-size: 23px;
+  }
+
+  /* about */
+  .about {
+    margin-bottom: -106px;
+  }
+
+  .about__title {
+    margin-bottom: 21px;
+  }
+
+  .about__text {
+    max-width: 668px;
+    margin-bottom: 56px;
+  }
+
+  .about__cards-wrap {
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .about__column {
+    max-width: 668px;
+    min-height: 650px;
+    margin-bottom: 35px;
+  }
+
+  .detail__content {
+    padding: 34px;
+  }
+
+  .detail__text {
+    max-width: 366px;
+    padding-left: 6px;
+    margin-right: 50px;
+  }
+
+  .about__btn {
+    padding: 18px 38px;
+  }
+
+  .about__card:not(:last-child) {
+    margin-bottom: 31px;
+  }
+
+  .card {
+    max-width: 668px;
+    min-height: 235px;
+    padding: 32px 37px;
+    margin-bottom: 31px;
+  }
+
+  .card::before {
+    width: 114px;
+    height: 29px;
+    margin-top: 29px;
+    margin-right: 16px;
+  }
+
+  .card__text {
+    max-width: 450px;
+  }
+
+  .card__title {
+    padding: 2px;
+  }
+
+  /* how */
+  .how__title {
+    margin-bottom: 19px;
+  }
+
+  .how__content {
+    flex-direction: column;
+  }
+
+  .how__background {
+    min-height: 284px;
+    max-width: 668px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    background: url(../img/how_background.png);
+  }
+
+  .how__subtitle {
+    margin-bottom: 5px;
+  }
+
+  .how__text {
+    max-width: 667px;
+    margin-bottom: 25px;
+  }
+
+  .how__text-br {
+    display: none;
+  }
+
+  /* faq */
+  .faq__item {
+    max-width: 668px;
+    padding: 34px 65px 31px 39px;
+    margin-bottom: 33px;
+  }
+
+  /* footer */
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .footer__feedback {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  /* header */
+  .header {
+    margin-bottom: 20px;
+    border-radius: 0px 0px 16px 16px;
+  }
+
+  .header__container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .header__logo {
+    padding: 21px 0;
+    padding-top: 17px;
+    margin-left: 0;
+  }
+
+  .header__nav {
+    order: 1;
+    width: 100%;
+    overflow: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 40px;
+  }
+
+  .nav__list {
+    column-gap: 25px;
+    flex-wrap: nowrap;
+  }
+
+  .nav__list {
+    flex-shrink: 0;
+  }
+
+  .header__search {
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+
+  /* hero */
+  .hero {
+    margin-bottom: 60px;
+  }
+
+  .hero__container {
+    max-width: 290px;
+    padding: 60px 22px;
+    background-image: url("../img/hero_background@768.jpg");
+    border-radius: 16px;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero__title {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .hero__text {
+    margin-bottom: 33px;
+    font-size: 12px;
+  }
+
+  .hero__btn {
+    max-width: 162px;
+    min-height: 41px;
+    margin-left: 41px;
+    padding: 0 0;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 8px;
+  }
+
+  /* about */
+  .about {
+    margin-bottom: 30px;
+  }
+
+  .about__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about__text {
+    max-width: 290px;
+    min-height: 672px;
+    margin-bottom: 14px;
+    line-height: 28px;
+    font-size: 14px;
+  }
+
+  .about__column {
+    height: auto;
+    max-width: 290px;
+    min-height: 200px;
+    margin-bottom: -3px;
+  }
+
+  .about__card:first-child {
+    margin-bottom: -4px;
+  }
+
+  .detail {
+    display: block;
+    background-size: 0;
+    background-image: url("../img/about_background@320.jpg");
+    background-color: transparent;
+  }
+
+  .detail::before {
+    content: "";
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding-top: calc(200 / 290 * 100%);
+    background-color: var(--extra-dark-gray);
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .detail__content {
+    padding: 0;
+    flex-direction: column;
+    color: var(--black);
+    background-color: transparent;
+    align-items: flex-start;
+  }
+
+  .detail__text {
+    max-width: 290px;
+    margin-bottom: 10px;
+    padding-left: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .about__btn {
+    padding: 11px 41px;
+    font-size: 12px;
+    border-radius: 8px;
+    color: var(--vibrant-orange);
+  }
+
+  .about__btn:hover,
+  .about__btn:focus-visible {
+    color: var(--white);
+  }
+
+  .about__btn:active {
+    color: var(--white);
+  }
+
+  .card {
+    flex-wrap: wrap;
+    padding: 0;
+    border: none;
+  }
+
+  .card::before {
+    width: 64px;
+    height: 49px;
+  }
+
+  .card__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+
+  .card__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  /* how */
+  .how {
+    margin-bottom: 59px;
+  }
+
+  .how__title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 9px;
+  }
+
+  .how__background {
+    max-width: 290px;
+    min-height: 160px;
+    border-radius: 16px;
+    background: url(../img/how_background@320.jpg);
+    margin-bottom: 15px;
+  }
+
+  .how__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .how__text {
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+  }
+
+  .how__btn {
+    padding: 12px 44px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 4px;
+    border-radius: 8px;
+  }
+
+  .how__btn-second {
+    padding: 12px 32px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+  }
+
+  /* faq */
+  .faq {
+    margin-bottom: 8px;
+  }
+
+  .faq__title {
+    margin-bottom: 20px;
+  }
+
+  .faq__item {
+    max-width: 290px;
+    border: none;
+    padding: 0;
+    margin-bottom: 36px;
+  }
+
+  .faq__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -5px;
+  }
+
+  .faq__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  /* footer */
+  .footer__feedback {
+    margin-bottom: 16px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid var(--dark-gray);
+  }
+
+  .feedback__title {
+    margin-bottom: 20px;
+  }
+
+  .feedback__input {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .feedback__input-textarea {
+    margin-bottom: 26px;
+  }
+
+  .feedback__form-bottom {
+    flex-direction: column;
+  }
+
+  .feedback__submit-btn {
+    padding: 12px 19px;
+    margin-bottom: 18px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+  }
+
+  .feedback__label {
+    margin-left: -20px;
+  }
+
+  .feedback__form-bottom {
+    margin-bottom: 3px;
+  }
+
+  .footer__nav {
+    margin-left: 79px;
+  }
+
+  .footer__logo {
+    max-width: 131px;
+    min-height: 42px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .footer__social {
+    gap: 17px;
+    flex-wrap: nowrap;
+    margin-left: 17px;
+  }
+
+  .social__item:first-child {
+    margin-right: 0;
+  }
+
+  .social__link-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
