@@ -15,7 +15,7 @@ This repository showcases "Euclid Project Systems", my second educational projec
 ## Setup
 
 To get started:
-1. Clone the repository: `git clone https://github.com/mzubailov/Evklid-weblayout.git`
+1. Clone the repository: `git clone https://github.com/mzubailov/Euclid-Project-Systems.git`
 2. Open `index.html` in a browser of your choice.
 
 ## Contact
@@ -41,7 +41,7 @@ Please contact me for feedback and suggestions via Telegram: [@Maga3DK](https://
 ## Настройка
 
 Для начала работы:
-1. Клонируйте репозиторий: `git clone https://github.com/mzubailov/Evklid-weblayout.git`
+1. Клонируйте репозиторий: `git clone https://github.com/mzubailov/Euclid-Project-Systems.git`
 2. Откройте `index.html` в браузере по вашему выбору.
 
 ## Контакты
